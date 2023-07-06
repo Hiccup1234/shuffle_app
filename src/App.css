@@ -1,0 +1,56 @@
+div {
+  text-align: center;
+}
+
+img {
+  height: 200px;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 0 0 2px black;
+}
+
+img:hover {
+  filter: brightness(110%);
+  cursor: pointer;
+  user-select: none;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  background-image: url(/src/images/thousandSunny.png);
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.502);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-width: 250px;
+  max-width: 300px;
+}
+
+.score {
+  font-size: 100px;
+}
+
+.desc {
+  text-align: left;
+  font-size: 15px;
+}
+
+.left {
+  margin: 20px;
+  gap: 50px;
+}
